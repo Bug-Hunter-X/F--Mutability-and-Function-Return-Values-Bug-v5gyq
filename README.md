@@ -1,0 +1,3 @@
+# F# Mutability Bug
+
+This repository demonstrates a common error in F# related to the interaction between mutable variables and function return values. The `bug.fs` file contains code that incorrectly attempts to update a mutable variable using a function's return value. The `bugSolution.fs` provides a corrected version, highlighting the proper way to handle this scenario.  The core issue is understanding how mutability works within the context of function calls.  The solution emphasizes proper assignment of the function's return value to the mutable variable.
